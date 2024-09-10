@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudoclass</title>
+    <style>
+      a {
+        font-size: 96px;
+      }
+      a:link {
+        color: lawngreen;
+      }
+      a:visited {
+        color: grey;
+      }
+      a:hover {
+        color: tomato;
+      }
+      a:active {
+        color: yellow;
+      }
+      button:hover {
+        background-color: lightgray;
+      }
+      button:active {
+        background-color: yellow;
+      }
+      /* li:nth-child(5) {
+        background-color: yellow;
+      } */
+
+      /* li:nth-child(even) {
+        background-color: rgb(71, 72, 73);
+      }
+      li:nth-child(odd) {
+        background-color: rgb(50, 97, 137);
+      } */
+
+      /*sabbai 4th number wala chai hignlight huncha 
+      ani +2 la chai ssecond dekhi highlight staart gar vaneko*/
+      li:nth-child(5n + 2) {
+        background-color: rgb(50, 97, 137);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- A pseudoclass - a keyword added to a selector that
+      specifies a special state of the selected element(s) -->
+    <a href="">Google</a>
+    <button>Click me</button>
+    <ul>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+      <li>This is a element</li>
+    </ul>
+  </body>
+</html>
