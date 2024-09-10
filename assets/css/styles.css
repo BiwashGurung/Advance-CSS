@@ -34,7 +34,7 @@
 
  .para{
     text-decoration: none;
-    border-style: outset;
+    border-style: dashed;
     border-width: 5px;
     border-color: gold;
     border-radius: 10px;
